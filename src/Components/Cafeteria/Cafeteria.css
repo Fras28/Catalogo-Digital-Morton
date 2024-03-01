@@ -1,0 +1,93 @@
+.titleSection {
+  font-size: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  padding-left: 16px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+
+.cafeBg {
+  border-radius: 20px;
+}
+.conteinerLC {
+  /* height: 70vh; */
+  margin-top: 0.5rem;
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5%;
+}
+.imgsTit {
+  object-fit: cover;
+  object-position: center;
+  border: double 2px #18a59d;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.conteinerLB2 > img {
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+  max-height: 150px;
+
+}
+.containerL {
+  margin-top: 100px;
+}
+.sectioner {
+  white-space: pre;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  align-items: center;
+  padding-bottom: 0.3rem;
+  position: sticky;
+  top: 79.5px;
+  width: 100%;
+  z-index: 9999;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.sectioner > a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border-radius: 16px;
+  margin-left: 8px;
+  border: 1px solid #000000;
+  border-radius: 24px;
+  text-decoration: none;
+  color: black;
+  padding: 12px 24px;
+  background-color: white;
+  margin-top: .3rem;
+}
+.sectioner > a:active {
+  background-color: #fcac009d;
+  border-radius: orange;
+}
+
+
+/* display: flex;
+
+width: 84px;
+height: 44px;
+
+border: 1px solid #577377;
+border-radius: 24px; */
+
+/* justify-content: flex-start; */
+@media (max-width: 600px) {
+  .sectioner{
+    justify-content: flex-start;
+  }
+  .leftInfo{
+    padding-left: 0;
+  }
+}
