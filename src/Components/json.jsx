@@ -982,6 +982,420 @@ export let jsonCafe = [
     detail: "Calabacines tiernos y sabrosos",
     price: "1400",
     section: "VERDULERIA"
-  }
+  },
+  // POLLERIA
+  {
+    name: "Pechuga de pollo",
+    detail: "› Pechuga de pollo fresca",
+    price: "2500",
+    section: "POLLERIA",
+  },
+  {
+    name: "Alitas de pollo",
+    detail: "› Alitas de pollo enteras",
+    price: "1800",
+    section: "POLLERIA",
+  },
+  {
+    name: "Pollo entero",
+    detail: "› Pollo entero sin procesar",
+    price: "4000",
+    section: "POLLERIA",
+  },
+  {
+    name: "Muslos de pollo",
+    detail: "› Muslos de pollo frescos",
+    price: "1800",
+    section: "POLLERIA",
+  },
+  {
+    name: "Brochetas de pollo",
+    detail: "› Brochetas con trozos de pollo crudo",
+    price: "3000",
+    section: "POLLERIA",
+  },
+  {
+    name: "Picada de pollo",
+    detail: "› Picada de pollo para guisos y sopas",
+    price: "2000",
+    section: "POLLERIA",
+  },
+  {
+    name: "Hígado de pollo",
+    detail: "› Hígado fresco de pollo",
+    price: "1200",
+    section: "POLLERIA",
+  },
+  {
+    name: "Carcasa de pollo",
+    detail: "› Carcasa de pollo para caldos",
+    price: "1000",
+    section: "POLLERIA",
+  },
+  {
+    name: "Corazones de pollo",
+    detail: "› Corazones de pollo frescos",
+    price: "1500",
+    section: "POLLERIA",
+  },
+  {
+    name: "Pollo molida",
+    detail: "› Carne de pollo molida",
+    price: "2200",
+    section: "POLLERIA",
+  },
+
+  // CARNICERIA VACUNA
+  {
+    name: "Bife de chorizo",
+    detail: "› Bife de chorizo fresco",
+    price: "9000",
+    section: "CARNICERIA VACUNA",
+  },
+  {
+    name: "Entrecot",
+    detail: "› Entrecot crudo",
+    price: "8000",
+    section: "CARNICERIA VACUNA",
+  },
+  {
+    name: "Filete mignon",
+    detail: "› Filete mignon fresco",
+    price: "12000",
+    section: "CARNICERIA VACUNA",
+  },
+  {
+    name: "Costillas de res",
+    detail: "› Costillas de res crudas",
+    price: "6000",
+    section: "CARNICERIA VACUNA",
+  },
+  {
+    name: "Carne mechada",
+    detail: "› Carne de res para mechado",
+    price: "7500",
+    section: "CARNICERIA VACUNA",
+  },
+  {
+    name: "Milanesa de carne",
+    detail: "› Milanesa de res cruda",
+    price: "6500",
+    section: "CARNICERIA VACUNA",
+  },
+  {
+    name: "Tiras de carne para stir-fry",
+    detail: "› Tiras de carne para salteados",
+    price: "7000",
+    section: "CARNICERIA VACUNA",
+  },
+  {
+    name: "Estofado de carne",
+    detail: "› Trozos de carne para estofado",
+    price: "10000",
+    section: "CARNICERIA VACUNA",
+  },
+  {
+    name: "Picada de carne",
+    detail: "› Picada de carne para guisos",
+    price: "8500",
+    section: "CARNICERIA VACUNA",
+  },
+  {
+    name: "Carne molida",
+    detail: "› Carne de res molida",
+    price: "7000",
+    section: "CARNICERIA VACUNA",
+  },
+
+  // CARNE DE CERDO
+  {
+    name: "Costillas de cerdo",
+    detail: "› Costillas de cerdo frescas",
+    price: "7000",
+    section: "CARNE DE CERDO",
+  },
+  {
+    name: "Chuletas de cerdo",
+    detail: "› Chuletas de cerdo frescas",
+    price: "6000",
+    section: "CARNE DE CERDO",
+  },
+  {
+    name: "Lomo de cerdo",
+    detail: "› Lomo de cerdo fresco",
+    price: "8000",
+    section: "CARNE DE CERDO",
+  },
+  {
+    name: "Tocino",
+    detail: "› Tocino fresco",
+    price: "3500",
+    section: "CARNE DE CERDO",
+  },
+  {
+    name: "Picada de cerdo",
+    detail: "› Picada de cerdo para guisos",
+    price: "50000",
+    section: "CARNE DE CERDO",
+  },
+  {
+    name: "Mollejas de cerdo",
+    detail: "› Mollejas de cerdo frescas",
+    price: "30000",
+    section: "CARNE DE CERDO",
+  },
+  {
+    name: "Salchichas de cerdo",
+    detail: "› Salchichas de cerdo frescas",
+    price: "4500",
+    section: "CARNE DE CERDO",
+  },
+  {
+    name: "Panceta",
+    detail: "› Panceta fresca",
+    price: "50000",
+    section: "CARNE DE CERDO",
+  },
+  {
+    name: "Pernil de cerdo",
+    detail: "› Pernil de cerdo fresco",
+    price: "90000",
+    section: "CARNE DE CERDO",
+  },
+  {
+    name: "Carne molida de cerdo",
+    detail: "› Carne de cerdo molida",
+    price: "5500",
+    section: "CARNE DE CERDO",
+  },
+
+  // PESCADERIA
+  {
+    name: "Filete de salmón",
+    detail: "› Filete fresco de salmón",
+    price: "12000",
+    section: "PESCADERIA",
+  },
+  {
+    name: "Langostinos",
+    detail: "› Langostinos frescos",
+    price: "15000",
+    section: "PESCADERIA",
+  },
+  {
+    name: "Calamares",
+    detail: "› Calamares frescos",
+    price: "8000",
+    section: "PESCADERIA",
+  },
+  {
+    name: "Atún fresco",
+    detail: "› Atún fresco para preparar sushi",
+    price: "10000",
+    section: "PESCADERIA",
+  },
+  {
+    name: "Pulpo",
+    detail: "› Pulpo fresco para ensaladas",
+    price: "12000",
+    section: "PESCADERIA",
+  },
+  {
+    name: "Filete de merluza",
+    detail: "› Filete fresco de merluza",
+    price: "7000",
+    section: "PESCADERIA",
+  },
+  {
+    name: "Gambas",
+    detail: "› Gambas frescas para paella",
+    price: "13000",
+    section: "PESCADERIA",
+  },
+  {
+    name: "Sardinas",
+    detail: "› Sardinas frescas para grillar",
+    price: "5000",
+    section: "PESCADERIA",
+  },
+  {
+    name: "Almejas",
+    detail: "› Almejas frescas para sopas y guisos",
+    price: "9000",
+    section: "PESCADERIA",
+  },
+  {
+    name: "Trucha arcoíris",
+    detail: "› Trucha arcoíris fresca",
+    price: "10000",
+    section: "PESCADERIA",
+  },
+   // SECCIÓN DE PASTAS TRADICIONALES
+   {
+    name: "Fideos de Huevo",
+    detail: "› Fideos tradicionales con huevo, ideales para sopas",
+    price: "50",
+    section: "PASTAS TRADICIONALES",
+  },
+  {
+    name: "Ñoquis",
+    detail: "› Ñoquis de papa, suaves y deliciosos",
+    price: "60",
+    section: "PASTAS TRADICIONALES",
+  },
+  {
+    name: "Lasaña",
+    detail: "› Lasaña clásica con capas de pasta, carne y queso",
+    price: "80",
+    section: "PASTAS TRADICIONALES",
+  },
+  {
+    name: "Tortellini de Queso",
+    detail: "› Tortellini relleno de queso ricotta y espinacas",
+    price: "70",
+    section: "PASTAS TRADICIONALES",
+  },
+  {
+    name: "Ravioli de Carne",
+    detail: "› Ravioli relleno de carne de res sazonada",
+    price: "75",
+    section: "PASTAS TRADICIONALES",
+  },
+  {
+    name: "Pappardelle",
+    detail: "› Cintas anchas de pasta, perfectas para salsas sustanciosas",
+    price: "65",
+    section: "PASTAS TRADICIONALES",
+  },
+  {
+    name: "Tallarines",
+    detail: "› Tallarines clásicos, versátiles para diferentes salsas",
+    price: "55",
+    section: "PASTAS TRADICIONALES",
+  },
+  {
+    name: "Conchiglie",
+    detail: "› Conchas pequeñas de pasta, ideales para ensaladas",
+    price: "45",
+    section: "PASTAS TRADICIONALES",
+  },
+  {
+    name: "Farfalle",
+    detail: "› Pasta en forma de mariposa, perfecta para platos fríos",
+    price: "60",
+    section: "PASTAS TRADICIONALES",
+  },
+  {
+    name: "Fusilli",
+    detail: "› Pasta en espiral, captura bien las salsas",
+    price: "55",
+    section: "PASTAS TRADICIONALES",
+  },
+
+  // SECCIÓN DE PASTAS FRESCAS
+  {
+    name: "Pasta Fresca de Huevo",
+    detail: "› Pasta fresca elaborada con huevos, suave y deliciosa",
+    price: "900",
+    section: "PASTAS FRESCAS",
+  },
+  {
+    name: "Tortelloni de Espinacas",
+    detail: "› Grandes tortelloni rellenos de espinacas y queso ricotta",
+    price: "1000",
+    section: "PASTAS FRESCAS",
+  },
+  {
+    name: "Gnocchi Fresco",
+    detail: "› Ñoquis frescos de papa, listos para cocinar",
+    price: "750",
+    section: "PASTAS FRESCAS",
+  },
+  {
+    name: "Fettuccine Fresco",
+    detail: "› Fettuccine fresco, perfecto con salsas cremosas",
+    price: "1100",
+    section: "PASTAS FRESCAS",
+  },
+  {
+    name: "Lasagna Fresca",
+    detail: "› Láminas de lasaña fresca para preparar en casa",
+    price: "1200",
+    section: "PASTAS FRESCAS",
+  },
+  {
+    name: "Pasta Negra Fresca",
+    detail: "› Pasta fresca con tinta de calamar, sorprendente y sabrosa",
+    price: "1300",
+    section: "PASTAS FRESCAS",
+  },
+  {
+    name: "Ravioli de Ricotta y Espinacas Fresco",
+    detail: "› Ravioli fresco relleno de ricotta y espinacas",
+    price: "950",
+    section: "PASTAS FRESCAS",
+  },
+  {
+    name: "Pasta de Trigo Integral Fresca",
+    detail: "› Pasta fresca elaborada con harina de trigo integral",
+    price: "850",
+    section: "PASTAS FRESCAS",
+  },
+  {
+    name: "Tortellini de Queso Fresco",
+    detail: "› Tortellini fresco relleno de queso cremoso",
+    price: "1000",
+    section: "PASTAS FRESCAS",
+  },
+  {
+    name: "Pappardelle Fresco",
+    detail: "› Cintas anchas de pasta fresca, ideal para salsas ricas",
+    price: "1050",
+    section: "PASTAS FRESCAS",
+  },
+
+  // SECCIÓN DE PASTAS ITALIANAS
+  {
+    name: "Pasta Orecchiette",
+    detail: "› Pasta en forma de oreja, típica de la región de Apulia",
+    price: "550",
+    section: "PASTAS ITALIANAS",
+  },
+  {
+    name: "Trofie",
+    detail: "› Pasta en forma de espiral, popular en Liguria",
+    price: "500",
+    section: "PASTAS ITALIANAS",
+  },
+  {
+    name: "Cavatelli",
+    detail: "› Pasta en forma de concha, originaria del sur de Italia",
+    price: "650",
+    section: "PASTAS ITALIANAS",
+  },
+  {
+    name: "Pasta Garganelli",
+    detail: "› Pasta enrollada similar a un tubo, común en Emilia-Romaña",
+    price: "700",
+    section: "PASTAS ITALIANAS",
+  },
+  {
+    name: "Pasta Pici",
+    detail: "› Pasta gruesa y alargada, tradicional de la Toscana",
+    price: "750",
+    section: "PASTAS ITALIANAS",
+  },
+  {
+    name: "Strozzapreti",
+    detail: "› Pasta enrollada a mano, su nombre significa 'estrangula cura'",
+    price: "800",
+    section: "PASTAS ITALIANAS",
+  },
+  {
+    name: "Trenette",
+    detail: "› Pasta plana y delgada, popular en la región de Liguria",
+    price: "600",
+    section: "PASTAS ITALIANAS",
+  },
 
 ];

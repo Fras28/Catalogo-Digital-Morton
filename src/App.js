@@ -14,6 +14,12 @@ import { Inicio } from './Components/LandingStart/LandingStart.jsx';
 import LandingPage from './Components/LandingPage/LandingPage.jsx';
 import Bares from './Components/Demo Bares/Demo Bares.jsx';
 import { Verdulerias } from './Components/Verdulerias/Verdulerias.jsx';
+import DemoCarniceria from './Components/Demo Carniceria/DemoCarniceria.jsx';
+import { CarneVacuna } from './Components/CarniceriaComp/CarneVacuna.jsx';
+import { Polleria } from './Components/CarniceriaComp/Polleria.jsx';
+import { Pescaderia } from './Components/CarniceriaComp/Pescaderia.jsx';
+import { Cerdo } from './Components/CarniceriaComp/CarneCerdo.jsx';
+import { Pastas } from './Components/CarniceriaComp/Pastas.jsx';
 
 function App() {
   return (
@@ -25,8 +31,14 @@ function App() {
           <Route exact path="/:id/Landing/Bares/Comidas" component={Comidas}/>
           <Route exact path="/:id/Landing/Bares/Bebidas" component={Bebidas}/>
           <Route exact path="/:id/Landing/Bares" component={Bares}/>
-          
+          <Route exact path="/:id/Landing/Carniceria" component={DemoCarniceria}/>
           <Route exact path="/:id/Landing/Verdulerias" component={Verdulerias}/>
+          <Route exact path="/:id/Landing/Pastas" component={Pastas}/>
+         
+          <Route exact path="/:id/Landing/Carniceria/Carnes" component={CarneVacuna}/>
+          <Route exact path="/:id/Landing/Carniceria/Pollo" component={Polleria}/>
+          <Route exact path="/:id/Landing/Carniceria/Pescaderia" component={Pescaderia}/>
+          <Route exact path="/:id/Landing/Carniceria/Cerdo" component={Cerdo}/>
 
           <Route exact path="/:id/Bag" component={Bag}/>
           <Route exact path="/:id/Landing/Bares/SpecialEvent" component={SpecialEvent}/>

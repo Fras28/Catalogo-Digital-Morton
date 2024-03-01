@@ -11,7 +11,7 @@ import { VerPedido } from "../BtnBag/BtnBag";
 import AlertDialogSlide from "../BtnNavidad/BtnNavidad";
 import { useSelector } from "react-redux";
 
-export default function LandingPage(url) {
+export default function DemoCarniceria (url) {
   const id = url.location.pathname.slice(1,3)
   const { categorias } = useSelector((state) => state.alldata);
 
@@ -66,49 +66,40 @@ console.log(categorias, "categorias");
       </div>
 
       <div className="conteinerLB2  ">
-      <div className="rowsCardL">
-      <NavLink to={`${url.location.pathname}/Carniceria`}>
-        
-        <div className="titInicio">
-            <img className="evImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdVpTl_kcMVoYepMRaRWwE-gC-blP64_2sY1ZdOPC6XhLGg8phFWi3IEKVqknXbCqMYP8&usqp=CAU" alt="" />
-            <p>Distribuidora Carniceria</p>
-        
+        <div className="rowsCardL">
+          <NavLink
+            className="navLink"
+            to={
+              url.location.pathname === "/"
+                ? `/Carniceria/Carnes`
+                : `${url.location.pathname}/Carnes`
+            }
+          >
+            <div className="titInicio">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdVpTl_kcMVoYepMRaRWwE-gC-blP64_2sY1ZdOPC6XhLGg8phFWi3IEKVqknXbCqMYP8&usqp=CAU" alt="fotito" />
+              <p>Carniceria</p>
+            </div>
+          </NavLink>
+          <NavLink className="navLink" to={`${url.location.pathname}/Pollo`}>
+            <div className="titInicio">
+              <img src="https://www.shutterstock.com/image-photo/raw-chicken-meat-fillet-thigh-260nw-1144557188.jpg" alt=""/>
+              <p>Polleria</p>
+            </div>
+          </NavLink>
+          <NavLink className="navLink" to={`${url.location.pathname}/Pescaderia`}>
+          <div className="titInicio">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/pescado-1585563959.jpg?resize=2048:*"  alt=""/>
+            <p>Pescaderia</p>
+          </div>
+          </NavLink>
+          <NavLink className="navLink" to={`${url.location.pathname}/Cerdo`}>
+          <div className="titInicio">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSksvqUT2HhkcI2M_hL1IDXU4ZzbHihYn5w1BKXB9PDYQag_xGXAW6Z6Xp9U1l5m8FQ840&usqp=CAU"  alt=""/>
+            <p>Carne Cerdo</p>
+          </div>
+          </NavLink>
         </div>
-        </NavLink>
-      
-         <NavLink to={`${url.location.pathname}/Bares`}>
-        
-        <div className="titInicio">
-            <img className="evImg" src="https://media.timeout.com/images/103377942/750/422/image.jpg" alt="" />
-            <p>Bares</p>
-      
-        </div>
-        </NavLink>
-        <NavLink to={`${url.location.pathname}/Verdulerias`}>
-        
-        <div className="titInicio">
-            <img className="evImg" src="https://st.depositphotos.com/1009051/3222/i/450/depositphotos_32227773-stock-photo-a-lot-of-fresh-fruits.jpg" alt="" />
-            <p>Verdulerias</p>
-       
-        </div>
-        </NavLink>
-        <NavLink to={`${url.location.pathname}/Pastas`}>
-        
-        <div className="titInicio">
-            <img className="evImg" src="https://placeralplato.com/files/2016/08/Pastas-de-colores-e1472318900687.jpg" alt="" />
-            <p>Fabrica de pastas</p>
-       
-        </div>
-        </NavLink>
-        <NavLink to={`${url.location.pathname}/TrackClub`}>
-        
-        <div className="titInicio">
-            <img className="evImg" src={TrackClubIMG} alt="" />
-            <p>TRACK CLUB</p>
-      
-        </div>
-        </NavLink>
-      </div>
+
       </div>
       <div className="navi2">
         <svg
