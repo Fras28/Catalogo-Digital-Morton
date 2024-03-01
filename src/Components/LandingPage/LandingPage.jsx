@@ -100,14 +100,6 @@ console.log(categorias, "categorias");
        
         </div>
         </NavLink>
-        <NavLink to={`${url.location.pathname}/TrackClub`}>
-        
-        <div className="titInicio">
-            <img className="evImg" src={TrackClubIMG} alt="" />
-            <p>TRACK CLUB</p>
-      
-        </div>
-        </NavLink>
       </div>
       </div>
       <div className="navi2">
